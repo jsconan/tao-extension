@@ -1,5 +1,5 @@
 <?php
-/**        
+/**
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -33,18 +33,18 @@ return array(
     ),
     'install' => array(
         'php' => array(
-            __DIR__.'/scripts/install/setThemeConfig.php'
+            \oat\taoExtension\scripts\install\SetPlatformTheme::class
         )
     ),
     'uninstall' => array(
     ),
     'routes' => array(
         '/taoExtension' => 'oat\\taoExtension\\controller'
-    ),    
+    ),
     'constants' => array(
         # views directory
         "DIR_VIEWS" => dirname(__FILE__).DIRECTORY_SEPARATOR."views".DIRECTORY_SEPARATOR,
-        
+
         #BASE URL (usually the domain root)
         'BASE_URL' => ROOT_URL.'taoExtension/',
     ),
