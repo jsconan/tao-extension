@@ -33,7 +33,8 @@ return array(
     ),
     'install' => array(
         'php' => array(
-            \oat\taoExtension\scripts\install\SetPlatformTheme::class
+            \oat\taoExtension\scripts\install\SetPlatformTheme::class,
+            \oat\taoExtension\scripts\install\RegisterTestRunnerPlugins::class,
         )
     ),
     'uninstall' => array(

@@ -1,7 +1,8 @@
 <?php
+
 namespace oat\taoExtension\scripts\install;
 
-use oat\oatbox\reporting\Report as Report;
+use oat\oatbox\reporting\Report;
 use oat\oatbox\extension\InstallAction;
 use oat\tao\model\theme\DefaultTheme;
 use oat\taoExtension\model\theme\TaoExtensionDefaultTheme;
